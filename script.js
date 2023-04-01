@@ -3,6 +3,7 @@
 function palindrome(str){
 	var newStr = str.split(" ");
 	var resultStr = newStr.join("");
+	 resultStr = resultStr.toLowercase();
 
 	for(var i =0;i<resultStr.length;i++){
 		if(resultStr[i] !==  resultStr[resultStr.length - 1 - i]){
